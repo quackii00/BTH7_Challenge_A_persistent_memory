@@ -5,21 +5,21 @@
       "active_rule": "PostgreSQL, TypeScript và REST API chuẩn camelCase",
       "reason": "Thống nhất quy ước dự án",
       "source_session": "session_1",
-      "updated_at": "2026-10-22 15:29:40",
+      "updated_at": "2026-10-22 22:06:42",
       "superseded_history": []
     },
     "auth": {
       "topic": "auth",
-      "active_rule": "Sử dụng Session Cookie (HTTP-only) để xác thực",
+      "active_rule": "Sử dụng Session Cookie (HTTP-only)",
       "reason": "Chuyển từ JWT sang Session Cookie để tránh rủi ro XSS",
       "source_session": "session_3",
-      "updated_at": "2026-10-22 15:30:24",
+      "updated_at": "2026-10-22 22:06:47",
       "superseded_history": [
         {
           "rule": "Authentication sử dụng JWT (JSON Web Token)",
           "source_session": "session_1",
-          "created_at": "2026-10-22 15:29:40",
-          "superseded_at": "2026-10-22 15:30:24",
+          "created_at": "2026-10-22 22:06:43",
+          "superseded_at": "2026-10-22 22:06:47",
           "superseded_by_session": "session_3",
           "superseded_reason": "Chuyển từ JWT sang Session Cookie để tránh rủi ro XSS"
         }
